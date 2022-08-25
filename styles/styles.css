@@ -1,0 +1,140 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #141519;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.paragraph {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    color: #787f89;
+    font-weight: 500;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1f2630; */
+    width: 22rem;
+    height: 22.5rem;
+    border-radius: 2rem;
+    background: radial-gradient(circle at top, #242934, #1a212b);
+}
+
+.classContent {
+    margin-top: 4rem;
+    width: 80%;
+    height: 100%;
+}
+
+.iconContainer {
+    background-color: #292e38;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.rateContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.buttonRate {
+    background-color: #292e38;
+    color: #787f89;
+    border: none;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 1.3rem;
+    transition: all .5s;
+}
+.buttonRateClicked {
+    background-color: #7b8899;
+    color: #fff;
+}
+.buttonRate:hover {
+    background-color: #fc7613;
+    color: #fff;
+}
+
+.buttonSubmit {
+    background-color: #fc7613;
+    width: 100%;
+    height: 2.4rem;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    transition: all .5s;
+}
+
+.buttonSubmit:hover {
+    color: #fc7613;
+    background-color: #fff;
+}
+
+.thanksImg {
+    width: 8rem;
+    position: relative;
+    top: 30px;
+}
+
+.thanksContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thanksContainer h4 {
+    font-size: 1.5rem;
+    position: relative;
+    top: 38px;
+}
+
+.thanksP {
+    font-size: 0.7rem;
+    width: 100%;
+    color: #787f89;
+    letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 600;
+    position: relative;
+    bottom: -13px;
+}
+
+.rateP {
+    color: #b56836;
+    background-color: #292e38;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    position: relative;
+    top: 45px;
+}
+
